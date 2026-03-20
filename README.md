@@ -67,13 +67,32 @@ java -cp out com.mygamepattern.Main
 
 ## 📋 Status actual
 - ✅ Compilación: OK
-- ✅ Tests (1 smoke test): PASS
-- ✅ Ejecución: OK
-- ⏳ Siguiente: Análisis y diseño de dominio RPG
+- ✅ Tests: 14/14 PASS (Hero tests)
+- ✅ Ejecución: Main.java funcional
+- ✅ Clase Hero: Completada y validada
+- ⏳ Siguiente: Implementar HeroDecorator
+
+## 🎯 Clases Implementadas
+
+### ✅ Dominio RPG (src/main/java/com/mygamepattern/rpg/domain/)
+- **HeroStats.java** - Objeto de valor con 6 estadísticas
+- **IHero.java** - Interfaz para patrón Decorator
+- **Hero.java** - Clase base del héroe con combate
+
+### ✅ Tests (src/test/java/com/mygamepattern/rpg/domain/)
+- **HeroTest.java** - 14 tests unitarios (100% PASS)
 
 ## 📚 Próximos pasos
-1. Diseñar esquema de clases (Hero, Decorator, Equipment, Combat)
-2. Implementar patrón Decorator para equipamiento
-3. Desarrollar motor de combate
-4. Crear servidor HTTP con interfaz web
+1. ✅ Diseñar esquema de clases Hero
+2. ⏳ Implementar HeroDecorator (clase abstracta)
+3. ⏳ Crear EquipmentDecorator (armaduras, armas)
+4. ⏳ Crear BuffDecorator (pociones, efectos)
+5. ⏳ Crear PowerDecorator (habilidades)
+6. ⏳ Desarrollar motor de combate (CombatSimulator)
+7. ⏳ Crear servidor HTTP con interfaz web
+
+## 📖 Documentación
+- `CLASE_HERO_COMPLETADA.md` - Descripción completa de Hero
+- `REFERENCIA_HERO.md` - Quick reference y ejemplos
+- `ESQUEMA_HERO.md` - Esquema arquitectónico
 
